@@ -16,7 +16,11 @@ router.get('/', (req, res) => {
       }
     ]
   })
-  .then((products) => res.json(products));
+  .then((products) => res.json(products))
+  .catch((err) => {
+    console.log(err);
+    res.status(400).json(err);
+  });
 });
 
 // get one product
@@ -35,7 +39,11 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then((products) => res.json(products));
+  .then((products) => res.json(products))
+  .catch((err) => {
+    console.log(err);
+    res.status(400).json(err);
+  });
 });
 
 // create new product
