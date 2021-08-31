@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   Category.findAll({
     include: [Product]
   })
-  .then((categories) => res.json(categories))
+  .then((categories) => res.json(categories));
 });
 
 router.get('/:id', (req, res) => {
@@ -21,13 +21,13 @@ router.get('/:id', (req, res) => {
     },
     include: [Product]
   })
-  .then((categories) => res.json(categories))
+  .then((categories) => res.json(categories));
 });
 
 router.post('/', (req, res) => {
   // create a new category
   Category.create(req.body)
-  .then((categories) => res.status(200).json(categories))
+  .then((categories) => res.status(200).json(categories));
 });
 
 router.put('/:id', (req, res) => {
@@ -37,7 +37,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id
     }
   })
-  .then((categories) => res.status(200).json(categories))
+  .then((categories) => res.status(200).json(categories));
 });
 
 router.delete('/:id', (req, res) => {
@@ -47,7 +47,7 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-  .then((categories) => res.status(200).json(categories))
+  .then((categories) => res.status(200).json(categories));
 });
 
 module.exports = router;
