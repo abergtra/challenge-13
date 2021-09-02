@@ -27,6 +27,7 @@ Step #5: Run `node server.js` in you command line.
 Step #6: Open Insomnia and explore your new backend product!
 
 Installation Walkthrough:
+
 ![Set Up Walkthrough](./assets/setup.gif)
 
 A video walkthrough is also available if you follow this [link](https://youtu.be/bdrpvL1s2Ts).
@@ -36,16 +37,19 @@ Explore the back end product's functionality by following the "Installation" ins
 Here are some examples of what you can do with this product.
 
 Categories Walkthrough:
+
 ![Categories Walkthrough](./assets/categories.gif)
 
 A video walkthrough is also available if you follow this [link](https://youtu.be/m52rLbBrGuw).
 
 Tags Walkthrough:
+
 ![Tags Walkthrough](./assets/tags.gif)
 
 A video walkthrough is also available if you follow this [link](https://youtu.be/6AI0i1G0aGU).
 
 Products Walkthrough:
+
 ![Products Walkthrough](./assets/products.gif)
 
 A video walkthrough is also available if you follow this [link](https://youtu.be/r15rppoT7jM).
