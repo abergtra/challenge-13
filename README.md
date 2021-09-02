@@ -20,10 +20,15 @@ Follow this [link](https://github.com/abergtra/challenge-13) for the GitHub repo
     
 # Installation
 Step #1: Run `npm install` in your command line. Ensure all required libraries are installed (express, sequelize, mysql2, etc).
+
 Step #2: Start your mysql.
+
 Step #3: Create a .env file with your password.
+
 Step #4: Run `npm run seed` in you command line.
+
 Step #5: Run `node server.js` in you command line.
+
 Step #6: Open Insomnia and explore your new backend product!
 
 Installation Walkthrough:
